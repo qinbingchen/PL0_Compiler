@@ -1,0 +1,16 @@
+var a, b, t;
+procedure swap;
+    begin
+        t := a;
+        a := b;
+        b := t
+    end;
+begin
+    a := 2;
+    b := 3;
+    call swap;
+    if a <> 0 then
+        a := a - 1
+    else
+        WRITE(a)
+end.
