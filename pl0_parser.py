@@ -438,7 +438,3 @@ if __name__ == "__main__":
     result = p.p_program()
     
     print_tree(result)
-
-    f = file("./code.txt", "w+")
-    f.write(compiler.code)
-    f.close()

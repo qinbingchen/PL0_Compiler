@@ -77,7 +77,8 @@ def create():
     return lexer.clone()
 
 if __name__ == "__main__":
-    code = open(sys.argv[1]).read()
+    #code = open(sys.argv[1]).read()
+    code = open("/Users/qin/Desktop/right.pl").read()
     lex.input(code)
 
     while True:

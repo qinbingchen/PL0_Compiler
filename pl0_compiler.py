@@ -342,7 +342,8 @@ class Compiler(NodeVisitor):
         self.line_no += 1
 
 if __name__ == "__main__":
-    code = open(sys.argv[1]).read()
+    #code = open("/Users/qin/Desktop/wrong1.pl").read()
+    code = open("/Users/qin/Documents/PL0_Compiler/test/fibonacci.pl").read()
 
     parser = pl0_parser.Parser()
     parser.input(code)

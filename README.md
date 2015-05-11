@@ -31,7 +31,7 @@ pl0_lexer共定义了如下关键字：
 
 	"DOT", "EOS", "UPDATE",
     "COMMA", "LPAREN", "RPAREN",
-    "PLUS", "MINUS", "TIMES", "DIVIDE", "PRINT",
+    "PLUS", "MINUS", "TIMES", "DIVIDE",
     "LT", "LTE", "GT", "GTE", "NE",
     "E_ASSIGN",
     "NAME", "NUMBER"
